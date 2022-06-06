@@ -22,11 +22,11 @@ class Solution(object):
         
         return head.next
             
-        def getVal(self, l):
-            val = l.val
-            exp = 10
-            while l.next != None:
-                l = l.next
-                val += l.val*exp
-                exp*= 10
-            return val
+    def getVal(self, l):
+        val = l.val
+        exp = 10
+        while l.next != None:
+            l = l.next
+            val += l.val*exp
+            exp*= 10
+        return val
