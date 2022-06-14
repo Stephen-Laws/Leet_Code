@@ -6,7 +6,7 @@ Leetcode Problems 0-99 (PYTHON)
 |2| [Add Two Numbers][2]|002_add_two_numbers.py|22/06/06|Easy|
 |13|[Roman to Integer][13]|013_roman_to_integer.py|22/06/06|Easy|
 |35|[Search Insert Position][35]|035_search_insert_position.py|22/06/14|Easy|
-|374|[Guess Number Higher or Lower][374]|374_guess_number|22/06/13|Easy|
+|374|[Guess Number Higher or Lower][374]|374_guess_number.py|22/06/13|Easy|
 |704|[Binary Search][704]|704_binary_search.py|22/06/13|Easy|
 |852|[Peak Index in Mountain Array][852]|852_peak_index.py|22/06/14|Easy|
 
