@@ -6,6 +6,7 @@ Leetcode Problems 0-99 (PYTHON)
 |2| [Add Two Numbers][2]|0002_add_two_numbers.py|22/06/06|Easy|
 |13|[Roman to Integer][13]|0013_roman_to_integer.py|22/06/06|Easy|
 |35|[Search Insert Position][35]|0035_search_insert_position.py|22/06/14|Easy|
+|69|[Sqrt(x)][69]|0069_sqrt_x.py|22/06/15|Easy|
 |367|[Valid Perfect Square][367]|0367_valid_perfect_square.py|22/06/15|Easy|
 |374|[Guess Number Higher or Lower][374]|0374_guess_number.py|22/06/13|Easy|
 |704|[Binary Search][704]|0704_binary_search.py|22/06/13|Easy|
@@ -17,6 +18,7 @@ Leetcode Problems 0-99 (PYTHON)
 [3]:https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/
 [35]:https://oj.leetcode.com/problems/search-insert-position/
 [13]:https://oj.leetcode.com/problems/roman-to-integer/
+[69]:https://oj.leetcode.com/problems/sqrtx/
 [367]:https://oj.leetcode.com/problems/valid-perfect-square/
 [374]:https://oj.leetcode.com/problems/guess-number-higher-or-lower/
 [704]:https://oj.leetcode.com/problems/binary-search/
