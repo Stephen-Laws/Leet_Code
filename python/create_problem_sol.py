@@ -1,0 +1,106 @@
+import sys
+import os
+
+try:
+    import argparse
+    import validators
+    from urllib.parse import urlparse
+    import urllib
+    from urllib.request import urlopen
+    import json
+    import re
+    import subprocess
+    from datetime import date
+    from bisect import bisect
+except ImportError as e:
+    print(f"ERROR: {e}")
+    sys.exit()
+
+import requests
+
+
+PROBLEMS_API_LINK = "https://leetcode.com/api/problems/algorithms"
+COMMAND_LINE = False
+difficulty_dict = {1: "Easy", 2: "Medium", 3: "Hard"}
+algorithms_problem_json = requests.get(PROBLEMS_API_LINK).content
+algorithms_problem_json = json.loads(algorithms_problem_json)
+
+python_str = None
+if COMMAND_LINE:
+    parser = argparse.ArgumentParser(description = "Import Leetcode Problem URL", formatter_class = argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument("url", help = "Leet code problem URL")
+    parser.add_argument("-p", "--python_string", help = "Optional name for python file")
+    args = vars(parser.parse_args())
+
+    url = args["url"]
+    if args["python_string"]:
+        python_str = args["python_string"]
+
+else:
+    url = "https://leetcode.com/problems/container-with-most-water/"
+
+
+#Check URL is valud
+if not validators.url(url):
+    print("Needs a valid URL (https:// ...)" )
+    sys.exit()
+
+parsed_url= urlparse(url)
+url_base_path = parsed_url.path
+while os.path.dirname(url_base_path) != '/':
+    url_base_path = os.path.dirname(url_base_path)
+
+if (parsed_url.netloc != "leetcode.com") or (url_base_path != "/problems"):
+    print("Ensure url is of form https://leetcode.com/problems/A_PROBLEM")
+    sys.exit()
+
+#Extract problem info from json api
+problem_name = os.path.basename(os.path.normpath(parsed_url.path))
+if python_str == None:
+    python_str = problem_name.replace("-","_")
+for el in algorithms_problem_json['stat_status_pairs']:
+    if el['stat']['question__article__slug'] == problem_name:
+        problem_number= el['stat']['question_id']
+        difficulty = difficulty_dict[el['difficulty']['level']]
+        break
+
+python_file_name = f"{problem_number:04d}_{python_str}.py"
+updated_url = parsed_url.scheme + "://oj." + parsed_url.hostname + parsed_url.path
+
+# Get today's date
+today = date.today()
+today = today.strftime("%y/%m/%d")
+
+#Readme rows to add
+table_row = f"|{problem_number}|[{problem_name}][{problem_number}]|{python_file_name}|{today}|{difficulty}|\n"
+url_row = f"[{problem_number}]:{updated_url}\n"
+
+# Update Readme
+p = subprocess.Popen(["cat",'python/README.md'], stdout=subprocess.PIPE)
+rme = p.stdout.read().decode('utf-8')
+
+#Find list of problems already done in readme
+current_nums = re.findall(r'\|\d+\|',rme)
+current_nums_start_idx = [m.start(0) for m in re.finditer(r'\|\d+\|', rme)]
+url_start_idx = [m.start(0) for m in re.finditer(r'\[\d+\]\:', rme)]
+current_nums = [int(num[1:-1]) for num in current_nums]
+if problem_number in current_nums:
+    print(f"README already contains problem {problem_number}")
+    sys.exit()
+
+#Find where to insert new table row
+insertion_point = bisect(current_nums,problem_number)
+
+#Add new table row
+updated_rme = rme[:current_nums_start_idx[insertion_point]] + table_row \
+                + rme[current_nums_start_idx[insertion_point]:url_start_idx[insertion_point]]  \
+                    + url_row + rme[url_start_idx[insertion_point]:]
+    
+
+f = open("python/README.md", 'w')
+f.write(updated_rme)
+f.close()
+
+
+
+
