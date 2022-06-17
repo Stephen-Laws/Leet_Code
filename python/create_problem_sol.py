@@ -111,6 +111,7 @@ if not os.path.exists(os.getcwd()+ folder_name):
 
 python_file_path = os.getcwd() + folder_name + "/" + python_file_name
 pyf = open(python_file_path, "a")
+pyf.write(f"# {updated_url}")
 pyf.close()
 
 
