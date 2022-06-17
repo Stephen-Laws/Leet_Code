@@ -1,7 +1,36 @@
 # https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
 class Solution:
+
     def searchRange(self, nums: List[int], target: int) -> List[int]:
+        if not nums:
+            return [-1,-1]
+        
+        lo, hi = 0, len(nums) -1
+        left = self.binSearch(nums,target,lo,hi, True)
+        right = self.binSearch(nums,target,lo,hi, False)
+        return [left, right]
+        
+    def binSearch(self, nums, target, lo, hi, left):
+        result = -1
+        while hi >= lo:
+            idx = (hi+lo)//2
+
+            if nums[idx] == target:
+                if left:
+                    hi = idx -1
+                else:
+                    lo = idx+ 1
+                result = idx
+            elif nums[idx] > target:
+                hi = idx -1
+            else:
+                lo = idx+1
+        return result  
+        
+            
+
+    def searchRangeinefficient(self, nums: List[int], target: int) -> List[int]:
         if not nums:
             return [-1,-1]
         
