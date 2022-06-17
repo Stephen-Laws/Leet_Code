@@ -103,7 +103,7 @@ hi = 99
 while problem_number > hi:
     hi += 100
 lo = hi - 99
-folder_name = f"/python/{lo}-{hi}"
+folder_name = f"/python/{lo:04d}-{hi:04d}"
 
 #Make folder if it doesn't exist
 if not os.path.exists(os.getcwd()+ folder_name):
