@@ -20,7 +20,7 @@ import requests
 
 
 PROBLEMS_API_LINK = "https://leetcode.com/api/problems/algorithms"
-COMMAND_LINE = False
+COMMAND_LINE = True
 difficulty_dict = {1: "Easy", 2: "Medium", 3: "Hard"}
 algorithms_problem_json = requests.get(PROBLEMS_API_LINK).content
 algorithms_problem_json = json.loads(algorithms_problem_json)
@@ -61,6 +61,7 @@ if python_str == None:
 for el in algorithms_problem_json['stat_status_pairs']:
     if el['stat']['question__article__slug'] == problem_name:
         problem_number= el['stat']['question_id']
+        problem_title = el['stat']['question__title']
         difficulty = difficulty_dict[el['difficulty']['level']]
         break
 
@@ -72,7 +73,7 @@ today = date.today()
 today = today.strftime("%y/%m/%d")
 
 #Readme rows to add
-table_row = f"|{problem_number}|[{problem_name}][{problem_number}]|{python_file_name}|{today}|{difficulty}|\n"
+table_row = f"|{problem_number}|[{problem_title}][{problem_number}]|{python_file_name}|{today}|{difficulty}|\n"
 url_row = f"[{problem_number}]:{updated_url}\n"
 
 # Update Readme
@@ -97,6 +98,23 @@ updated_rme = rme[:current_nums_start_idx[insertion_point]] + table_row \
                     + url_row + rme[url_start_idx[insertion_point]:]
     
 
+#Create new python file
+hi = 99
+while problem_number > hi:
+    hi += 100
+lo = hi - 99
+folder_name = f"/python/{lo}-{hi}"
+
+#Make folder if it doesn't exist
+if not os.path.exists(os.getcwd()+ folder_name):
+    os.mkdir(os.getcwd() + folder_name)
+
+python_file_path = os.getcwd() + folder_name + "/" + python_file_name
+pyf = open(python_file_path, "a")
+pyf.close()
+
+
+#Write new readme contents
 f = open("python/README.md", 'w')
 f.write(updated_rme)
 f.close()
