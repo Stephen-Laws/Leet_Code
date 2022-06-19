@@ -20,7 +20,7 @@ import requests
 
 
 PROBLEMS_API_LINK = "https://leetcode.com/api/problems/algorithms"
-COMMAND_LINE = True
+COMMAND_LINE = False
 difficulty_dict = {1: "Easy", 2: "Medium", 3: "Hard"}
 algorithms_problem_json = requests.get(PROBLEMS_API_LINK).content
 algorithms_problem_json = json.loads(algorithms_problem_json)
@@ -37,8 +37,8 @@ if COMMAND_LINE:
         python_str = args["python_string"]
 
 else:
-    url = "https://leetcode.com/problems/container-with-most-water/"
-
+    url = "https://leetcode.com/problems/kth-missing-positive-number/"
+    python_str = "kth_missing_num"
 
 #Check URL is valud
 if not validators.url(url):
@@ -84,6 +84,11 @@ rme = p.stdout.read().decode('utf-8')
 current_nums = re.findall(r'\|\d+\|',rme)
 current_nums_start_idx = [m.start(0) for m in re.finditer(r'\|\d+\|', rme)]
 url_start_idx = [m.start(0) for m in re.finditer(r'\[\d+\]\:', rme)]
+
+#Append end of insertion lists with last line of readme
+current_nums_start_idx.append([m.start(0) for m in re.finditer('\n\n\[\d+\]',rme)][0]+1)
+url_start_idx.append(len(rme))
+
 current_nums = [int(num[1:-1]) for num in current_nums]
 if problem_number in current_nums:
     print(f"README already contains problem {problem_number}")
