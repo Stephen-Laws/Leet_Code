@@ -37,8 +37,8 @@ if COMMAND_LINE:
         python_str = args["python_string"]
 
 else:
-    url = "https://leetcode.com/problems/kth-missing-positive-number/"
-    python_str = "kth_missing_num"
+    url = "https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/"
+    python_str = "special_array"
 
 #Check URL is valud
 if not validators.url(url):
@@ -59,7 +59,7 @@ problem_name = os.path.basename(os.path.normpath(parsed_url.path))
 if python_str == None:
     python_str = problem_name.replace("-","_")
 for el in algorithms_problem_json['stat_status_pairs']:
-    if el['stat']['question__article__slug'] == problem_name:
+    if el['stat']['question__article__slug'] == problem_name or el['stat']['question__title_slug'] == problem_name:
         problem_number= el['stat']['question_id']
         problem_title = el['stat']['question__title']
         difficulty = difficulty_dict[el['difficulty']['level']]
