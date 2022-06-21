@@ -1,3 +1,5 @@
+# https://oj.leetcode.com/problems/sqrtx/
+
 class Solution:
     def mySqrt(self, x: int) -> int:
         if x == 1 or x==2: 
