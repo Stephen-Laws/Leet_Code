@@ -1,5 +1,3 @@
-# https://oj.leetcode.com/problems/binary-search/
-
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         upper_idx = len(nums)
