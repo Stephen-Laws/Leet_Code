@@ -11,4 +11,11 @@ class Solution:
             start += 1
             end -= 1
         return True
+
+        """ 
+        Alternate sol:
+        if x < 0:
+            return False
+        return str(x)== str(x)[::-1]
+        """
         
