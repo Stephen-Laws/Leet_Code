@@ -10,6 +10,7 @@ Leetcode Problems 0-99 (PYTHON)
 |34|[Find First and Last Position of Element in Sorted Array][34]|0034_find_position_in_array.py|22/06/17|Medium|
 |35|[Search Insert Position][35]|0035_search_insert_position.py|22/06/14|Easy|
 |69|[Sqrt(x)][69]|0069_sqrt_x.py|22/06/15|Easy|
+|74|[Search a 2D Matrix][74]|0074_search_2d_matrix.py|22/06/21|Medium|
 |167|[Two Sum II - Input Array Is Sorted][167]|0167_two_sum_ii.py|22/06/20|Medium|
 |278|[First Bad Version][278]|0278_first_bad_version.py|22/06/17|Easy|
 |367|[Valid Perfect Square][367]|0367_valid_perfect_square.py|22/06/15|Easy|
@@ -19,6 +20,8 @@ Leetcode Problems 0-99 (PYTHON)
 |744|[Find Smallest Letter Greater Than Target][744]|0744_smallest_letter.py|22/06/16|Easy|
 |852|[Peak Index in Mountain Array][852]|0852_peak_index.py|22/06/14|Easy|
 |1385|[Find the Distance Value Between Two Arrays][1385]|1385_find_distance_value.py|22/06/15|Easy|
+|1463|[The K Weakest Rows in a Matrix][1463]|1463_k_weakest_rows.py|22/06/21|Easy|
+|1476|[Count Negative Numbers in a Sorted Matrix][1476]|1476_count_neg_num.py|22/06/21|Easy|
 |1646|[Kth Missing Positive Number][1646]|1646_kth_missing_num.py|22/06/19|Easy|
 |1730|[Special Array With X Elements Greater Than or Equal X][1730]|1730_special_array.py|22/06/20|Easy|
 
@@ -30,6 +33,7 @@ Leetcode Problems 0-99 (PYTHON)
 [34]:https://oj.leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 [35]:https://oj.leetcode.com/problems/search-insert-position/
 [69]:https://oj.leetcode.com/problems/sqrtx/
+[74]:https://oj.leetcode.com/problems/search-a-2d-matrix/
 [167]:https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 [278]:https://oj.leetcode.com/problems/first-bad-version/
 [367]:https://oj.leetcode.com/problems/valid-perfect-square/
@@ -39,5 +43,7 @@ Leetcode Problems 0-99 (PYTHON)
 [744]:https://oj.leetcode.com/problems/find-smallest-letter-greater-than-target/
 [852]:https://oj.leetcode.com/problems/peak-index-in-a-mountain-array/
 [1385]:https://oj.leetcode.com/problems/find-the-distance-value-between-two-arrays/
+[1463]:https://oj.leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
+[1476]:https://oj.leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
 [1646]:https://oj.leetcode.com/problems/kth-missing-positive-number/
 [1730]:https://oj.leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/
