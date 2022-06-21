@@ -5,6 +5,7 @@ Leetcode Problems 0-99 (PYTHON)
 |1|[Two Sum][1]|0001_two_sum.py|22/06/06|Easy|
 |2|[Add Two Numbers][2]|0002_add_two_numbers.py|22/06/06|Easy|
 |3|[Longest Substring without Repeating Characters][3]|0003_longest_substring.py|22/06/14|Easy|
+|9|[Palindrome Number][9]|0009_palindrome_number.py|22/06/21|Easy|
 |13|[Roman to Integer][13]|0013_roman_to_integer.py|22/06/06|Easy|
 |14|[Longest Common Prefix][14]|0014_longest_common_prefix.py|22/06/17|Easy|
 |34|[Find First and Last Position of Element in Sorted Array][34]|0034_find_position_in_array.py|22/06/17|Medium|
@@ -29,6 +30,7 @@ Leetcode Problems 0-99 (PYTHON)
 [1]:https://oj.leetcode.com/problems/two-sum/
 [2]:https://oj.leetcode.com/problems/add-two-numbers/
 [3]:https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/
+[9]:https://oj.leetcode.com/problems/palindrome-number/
 [13]:https://oj.leetcode.com/problems/roman-to-integer/
 [14]:https://oj.leetcode.com/problems/longest-common-prefix/
 [34]:https://oj.leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
