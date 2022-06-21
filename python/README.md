@@ -21,6 +21,7 @@ Leetcode Problems 0-99 (PYTHON)
 |852|[Peak Index in Mountain Array][852]|0852_peak_index.py|22/06/14|Easy|
 |1385|[Find the Distance Value Between Two Arrays][1385]|1385_find_distance_value.py|22/06/15|Easy|
 |1463|[The K Weakest Rows in a Matrix][1463]|1463_k_weakest_rows.py|22/06/21|Easy|
+|1468|[Check If N and Its Double Exist][1468]|1468_check_if_exist.py|22/06/21|Easy|
 |1476|[Count Negative Numbers in a Sorted Matrix][1476]|1476_count_neg_num.py|22/06/21|Easy|
 |1646|[Kth Missing Positive Number][1646]|1646_kth_missing_num.py|22/06/19|Easy|
 |1730|[Special Array With X Elements Greater Than or Equal X][1730]|1730_special_array.py|22/06/20|Easy|
@@ -44,6 +45,7 @@ Leetcode Problems 0-99 (PYTHON)
 [852]:https://oj.leetcode.com/problems/peak-index-in-a-mountain-array/
 [1385]:https://oj.leetcode.com/problems/find-the-distance-value-between-two-arrays/
 [1463]:https://oj.leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
+[1468]:https://oj.leetcode.com/problems/check-if-n-and-its-double-exist/
 [1476]:https://oj.leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
 [1646]:https://oj.leetcode.com/problems/kth-missing-positive-number/
 [1730]:https://oj.leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/
