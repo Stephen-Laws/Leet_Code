@@ -14,6 +14,7 @@ Leetcode Problems 0-99 (PYTHON)
 |74|[Search a 2D Matrix][74]|0074_search_2d_matrix.py|22/06/21|Medium|
 |167|[Two Sum II - Input Array Is Sorted][167]|0167_two_sum_ii.py|22/06/20|Medium|
 |278|[First Bad Version][278]|0278_first_bad_version.py|22/06/17|Easy|
+|350|[Intersection of Two Arrays II][350]|0350_intersection_two_arrays.py|22/06/22|Easy|
 |367|[Valid Perfect Square][367]|0367_valid_perfect_square.py|22/06/15|Easy|
 |374|[Guess Number Higher or Lower][374]|0374_guess_number.py|22/06/13|Easy|
 |441|[Arranging Coins][441]|0441_arranging_coins.py|22/06/19|Easy|
@@ -39,6 +40,7 @@ Leetcode Problems 0-99 (PYTHON)
 [74]:https://oj.leetcode.com/problems/search-a-2d-matrix/
 [167]:https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 [278]:https://oj.leetcode.com/problems/first-bad-version/
+[350]:https://oj.leetcode.com/problems/intersection-of-two-arrays-ii/
 [367]:https://oj.leetcode.com/problems/valid-perfect-square/
 [374]:https://oj.leetcode.com/problems/guess-number-higher-or-lower/
 [441]:https://oj.leetcode.com/problems/arranging-coins/
