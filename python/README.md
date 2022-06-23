@@ -8,6 +8,7 @@ Leetcode Problems 0-99 (PYTHON)
 |9|[Palindrome Number][9]|0009_palindrome_number.py|22/06/21|Easy|
 |13|[Roman to Integer][13]|0013_roman_to_integer.py|22/06/06|Easy|
 |14|[Longest Common Prefix][14]|0014_longest_common_prefix.py|22/06/17|Easy|
+|33|[Search in Rotated Sorted Array][33]|0033_search_rot_array.py|22/06/23|Medium|
 |34|[Find First and Last Position of Element in Sorted Array][34]|0034_find_position_in_array.py|22/06/17|Medium|
 |35|[Search Insert Position][35]|0035_search_insert_position.py|22/06/14|Easy|
 |69|[Sqrt(x)][69]|0069_sqrt_x.py|22/06/15|Easy|
@@ -28,6 +29,7 @@ Leetcode Problems 0-99 (PYTHON)
 |1476|[Count Negative Numbers in a Sorted Matrix][1476]|1476_count_neg_num.py|22/06/21|Easy|
 |1646|[Kth Missing Positive Number][1646]|1646_kth_missing_num.py|22/06/19|Easy|
 |1730|[Special Array With X Elements Greater Than or Equal X][1730]|1730_special_array.py|22/06/20|Easy|
+|1984|[Maximum Distance Between a Pair of Values][1984]|1984_max_distance.py|22/06/23|Medium|
 
 [1]:https://oj.leetcode.com/problems/two-sum/
 [2]:https://oj.leetcode.com/problems/add-two-numbers/
@@ -35,6 +37,7 @@ Leetcode Problems 0-99 (PYTHON)
 [9]:https://oj.leetcode.com/problems/palindrome-number/
 [13]:https://oj.leetcode.com/problems/roman-to-integer/
 [14]:https://oj.leetcode.com/problems/longest-common-prefix/
+[33]:https://oj.leetcode.com/problems/search-in-rotated-sorted-array/
 [34]:https://oj.leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 [35]:https://oj.leetcode.com/problems/search-insert-position/
 [69]:https://oj.leetcode.com/problems/sqrtx/
@@ -55,3 +58,4 @@ Leetcode Problems 0-99 (PYTHON)
 [1476]:https://oj.leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
 [1646]:https://oj.leetcode.com/problems/kth-missing-positive-number/
 [1730]:https://oj.leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/
+[1984]:https://oj.leetcode.com/problems/maximum-distance-between-a-pair-of-values/
