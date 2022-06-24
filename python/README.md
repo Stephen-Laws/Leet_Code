@@ -13,6 +13,7 @@ Leetcode Problems 0-99 (PYTHON)
 |35|[Search Insert Position][35]|0035_search_insert_position.py|22/06/14|Easy|
 |69|[Sqrt(x)][69]|0069_sqrt_x.py|22/06/15|Easy|
 |74|[Search a 2D Matrix][74]|0074_search_2d_matrix.py|22/06/21|Medium|
+|153|[Find Minimum in Rotated Sorted Array][153]|0153_find_min_rot_array.py|22/06/24|Medium|
 |167|[Two Sum II - Input Array Is Sorted][167]|0167_two_sum_ii.py|22/06/20|Medium|
 |278|[First Bad Version][278]|0278_first_bad_version.py|22/06/17|Easy|
 |350|[Intersection of Two Arrays II][350]|0350_intersection_two_arrays.py|22/06/22|Easy|
@@ -21,12 +22,14 @@ Leetcode Problems 0-99 (PYTHON)
 |441|[Arranging Coins][441]|0441_arranging_coins.py|22/06/19|Easy|
 |633|[Sum of Square Numbers][633]|0633_sum_of_square_numbers.py|22/06/22|Medium|
 |704|[Binary Search][704]|0704_binary_search.py|22/06/13|Easy|
+|724|[Find Pivot Index][724]|0724_find_pivot_index.py|22/06/24|Easy|
 |744|[Find Smallest Letter Greater Than Target][744]|0744_smallest_letter.py|22/06/16|Easy|
 |852|[Peak Index in Mountain Array][852]|0852_peak_index.py|22/06/14|Easy|
 |1385|[Find the Distance Value Between Two Arrays][1385]|1385_find_distance_value.py|22/06/15|Easy|
 |1463|[The K Weakest Rows in a Matrix][1463]|1463_k_weakest_rows.py|22/06/21|Easy|
 |1468|[Check If N and Its Double Exist][1468]|1468_check_if_exist.py|22/06/21|Easy|
 |1476|[Count Negative Numbers in a Sorted Matrix][1476]|1476_count_neg_num.py|22/06/21|Easy|
+|1603|[Running Sum of 1d Array][1603]|1603_running_sum.py|22/06/24|Easy|
 |1646|[Kth Missing Positive Number][1646]|1646_kth_missing_num.py|22/06/19|Easy|
 |1730|[Special Array With X Elements Greater Than or Equal X][1730]|1730_special_array.py|22/06/20|Easy|
 |1984|[Maximum Distance Between a Pair of Values][1984]|1984_max_distance.py|22/06/23|Medium|
@@ -42,6 +45,7 @@ Leetcode Problems 0-99 (PYTHON)
 [35]:https://oj.leetcode.com/problems/search-insert-position/
 [69]:https://oj.leetcode.com/problems/sqrtx/
 [74]:https://oj.leetcode.com/problems/search-a-2d-matrix/
+[153]:https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 [167]:https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 [278]:https://oj.leetcode.com/problems/first-bad-version/
 [350]:https://oj.leetcode.com/problems/intersection-of-two-arrays-ii/
@@ -50,12 +54,14 @@ Leetcode Problems 0-99 (PYTHON)
 [441]:https://oj.leetcode.com/problems/arranging-coins/
 [633]:https://oj.leetcode.com/problems/sum-of-square-numbers/
 [704]:https://oj.leetcode.com/problems/binary-search/
+[724]:https://oj.leetcode.com/problems/find-pivot-index/
 [744]:https://oj.leetcode.com/problems/find-smallest-letter-greater-than-target/
 [852]:https://oj.leetcode.com/problems/peak-index-in-a-mountain-array/
 [1385]:https://oj.leetcode.com/problems/find-the-distance-value-between-two-arrays/
 [1463]:https://oj.leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
 [1468]:https://oj.leetcode.com/problems/check-if-n-and-its-double-exist/
 [1476]:https://oj.leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
+[1603]:https://oj.leetcode.com/problems/running-sum-of-1d-array/
 [1646]:https://oj.leetcode.com/problems/kth-missing-positive-number/
 [1730]:https://oj.leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/
 [1984]:https://oj.leetcode.com/problems/maximum-distance-between-a-pair-of-values/
