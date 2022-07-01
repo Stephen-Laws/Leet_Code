@@ -20,6 +20,7 @@ Leetcode Problems 0-99 (PYTHON)
 |367|[Valid Perfect Square][367]|0367_valid_perfect_square.py|22/06/15|Easy|
 |374|[Guess Number Higher or Lower][374]|0374_guess_number.py|22/06/13|Easy|
 |441|[Arranging Coins][441]|0441_arranging_coins.py|22/06/19|Easy|
+|611|[Valid Triangle Number][611]|0611_valid_triangle_number.py|22/07/01|Medium|
 |633|[Sum of Square Numbers][633]|0633_sum_of_square_numbers.py|22/06/22|Medium|
 |704|[Binary Search][704]|0704_binary_search.py|22/06/13|Easy|
 |724|[Find Pivot Index][724]|0724_find_pivot_index.py|22/06/24|Easy|
@@ -52,6 +53,7 @@ Leetcode Problems 0-99 (PYTHON)
 [367]:https://oj.leetcode.com/problems/valid-perfect-square/
 [374]:https://oj.leetcode.com/problems/guess-number-higher-or-lower/
 [441]:https://oj.leetcode.com/problems/arranging-coins/
+[611]:https://oj.leetcode.com/problems/valid-triangle-number/
 [633]:https://oj.leetcode.com/problems/sum-of-square-numbers/
 [704]:https://oj.leetcode.com/problems/binary-search/
 [724]:https://oj.leetcode.com/problems/find-pivot-index/
