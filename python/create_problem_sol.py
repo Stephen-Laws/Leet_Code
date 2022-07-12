@@ -12,6 +12,7 @@ try:
     import subprocess
     from datetime import date
     from bisect import bisect
+    from sys import platform
 except ImportError as e:
     print(f"ERROR: {e}")
     sys.exit()
@@ -77,8 +78,12 @@ table_row = f"|{problem_number}|[{problem_title}][{problem_number}]|{python_file
 url_row = f"[{problem_number}]:{updated_url}\n"
 
 # Update Readme
-p = subprocess.Popen(["cat",'python/README.md'], stdout=subprocess.PIPE)
-rme = p.stdout.read().decode('utf-8')
+if platform == "win32":  
+    with open('C:\\Users\\sglaw\\Documents\\GitHub\\Leet_Code\\python\\README.md','r') as f:
+        rme = f.read()
+else:
+    p = subprocess.Popen(["cat",os.path.join('python','README.md')], stdout=subprocess.PIPE)
+    rme = p.stdout.read().decode('utf-8')
 
 #Find list of problems already done in readme
 current_nums = re.findall(r'\|\d+\|',rme)

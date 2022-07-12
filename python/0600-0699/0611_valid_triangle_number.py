@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# https://oj.leetcode.com/problems/valid-triangle-number/
-=======
 # https://oj.leetcode.com/problems/valid-triangle-number/
 
 class Solution:
@@ -15,4 +12,3 @@ class Solution:
                 else:
                     left += 1
         return count
->>>>>>> 94195ef0390b1becebf16f32c375d9968d8eb497

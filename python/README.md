@@ -24,11 +24,7 @@ Leetcode Problems 0-99 (PYTHON)
 |374|[Guess Number Higher or Lower][374]|0374_guess_number.py|22/06/13|Easy|
 |392|[Is Subsequence][392]|0392_is_subsequence.py|22/06/27|Easy|
 |441|[Arranging Coins][441]|0441_arranging_coins.py|22/06/19|Easy|
-<<<<<<< HEAD
 |611|[Valid Triangle Number][611]|0611_valid_triangle_number.py|22/06/29|Medium|
-=======
-|611|[Valid Triangle Number][611]|0611_valid_triangle_number.py|22/07/01|Medium|
->>>>>>> 94195ef0390b1becebf16f32c375d9968d8eb497
 |633|[Sum of Square Numbers][633]|0633_sum_of_square_numbers.py|22/06/22|Medium|
 |704|[Binary Search][704]|0704_binary_search.py|22/06/13|Easy|
 |724|[Find Pivot Index][724]|0724_find_pivot_index.py|22/06/24|Easy|
