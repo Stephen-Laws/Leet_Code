@@ -117,8 +117,8 @@ med_pos = [(m.start(0),m.end(0)) for m in re.finditer('Medium\:',updated_rme)][0
 hard_pos = [(m.start(0),m.end(0)) for m in re.finditer('Hard\:',updated_rme)][0]
 table_start = [m.start(0) for m in re.finditer('\|NO\.\|',updated_rme)][0]
 
-updated_rme = updated_rme[:easy_pos[1]] + f"   {easy_cnt}\n" \
-            + updated_rme[med_pos[0]:med_pos[1]] + f" {med_cnt}\n" \
+updated_rme = updated_rme[:easy_pos[1]] + f"   {easy_cnt}\n\n" \
+            + updated_rme[med_pos[0]:med_pos[1]] + f" {med_cnt}\n\n" \
             + updated_rme[hard_pos[0]:hard_pos[1]] + f"   {hard_cnt}\n\n" \
             + updated_rme[table_start:]   
 
