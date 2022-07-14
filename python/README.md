@@ -1,7 +1,9 @@
 Leetcode Problems (PYTHON)
 
 Easy:   28
+
 Medium: 10
+
 Hard:   0
 
 |NO.|Title|Solution|Add Date|Difficulty|
