@@ -21,7 +21,7 @@ import requests
 
 
 PROBLEMS_API_LINK = "https://leetcode.com/api/problems/algorithms"
-COMMAND_LINE = True
+COMMAND_LINE = False
 difficulty_dict = {1: "Easy", 2: "Medium", 3: "Hard"}
 algorithms_problem_json = requests.get(PROBLEMS_API_LINK).content
 algorithms_problem_json = json.loads(algorithms_problem_json)
@@ -38,8 +38,8 @@ if COMMAND_LINE:
         python_str = args["python_string"]
 
 else:
-    url = "https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/"
-    python_str = "special_array"
+    url = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
+    python_str = "build_tree"
 
 #Check URL is valud
 if not validators.url(url):
@@ -107,6 +107,20 @@ updated_rme = rme[:current_nums_start_idx[insertion_point]] + table_row \
                 + rme[current_nums_start_idx[insertion_point]:url_start_idx[insertion_point]]  \
                     + url_row + rme[url_start_idx[insertion_point]:]
     
+# Find number of easy, med and hard problems completed
+easy_cnt = len(re.findall('\|Easy\|', updated_rme))
+med_cnt = len(re.findall('\|Medium\|', updated_rme))
+hard_cnt = len(re.findall('\|Hard\|', updated_rme))
+
+easy_pos = [(m.start(0),m.end(0)) for m in re.finditer('Easy\:',updated_rme)][0]
+med_pos = [(m.start(0),m.end(0)) for m in re.finditer('Medium\:',updated_rme)][0]
+hard_pos = [(m.start(0),m.end(0)) for m in re.finditer('Hard\:',updated_rme)][0]
+table_start = [m.start(0) for m in re.finditer('\|NO\.\|',updated_rme)][0]
+
+updated_rme = updated_rme[:easy_pos[1]] + f"   {easy_cnt}\n" \
+            + updated_rme[med_pos[0]:med_pos[1]] + f" {med_cnt}\n" \
+            + updated_rme[hard_pos[0]:hard_pos[1]] + f"   {hard_cnt}\n\n" \
+            + updated_rme[table_start:]   
 
 #Create new python file
 hi = 99

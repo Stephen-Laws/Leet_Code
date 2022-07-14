@@ -1,4 +1,8 @@
-Leetcode Problems 0-99 (PYTHON)
+Leetcode Problems (PYTHON)
+
+Easy:   28
+Medium: 10
+Hard:   0
 
 |NO.|Title|Solution|Add Date|Difficulty|
 |---|-----|--------|--------|----------|
@@ -14,9 +18,11 @@ Leetcode Problems 0-99 (PYTHON)
 |35|[Search Insert Position][35]|0035_search_insert_position.py|22/06/14|Easy|
 |69|[Sqrt(x)][69]|0069_sqrt_x.py|22/06/15|Easy|
 |74|[Search a 2D Matrix][74]|0074_search_2d_matrix.py|22/06/21|Medium|
+|105|[Construct Binary Tree from Preorder and Inorder Traversal][105]|0105_build_tree.py|22/07/14|Medium|
 |153|[Find Minimum in Rotated Sorted Array][153]|0153_find_min_rot_array.py|22/06/24|Medium|
 |167|[Two Sum II - Input Array Is Sorted][167]|0167_two_sum_ii.py|22/06/20|Medium|
 |205|[Isomorphic Strings][205]|0205_isomorphic_strings.py|22/06/27|Easy|
+|206|[Reverse Linked List][206]|0206_reverse_linked_list.py|22/07/14|Easy|
 |209|[Minimum Size Subarray Sum][209]|0209_min_sub_array_len.py|22/06/29|Medium|
 |278|[First Bad Version][278]|0278_first_bad_version.py|22/06/17|Easy|
 |350|[Intersection of Two Arrays II][350]|0350_intersection_two_arrays.py|22/06/22|Easy|
@@ -51,9 +57,11 @@ Leetcode Problems 0-99 (PYTHON)
 [35]:https://oj.leetcode.com/problems/search-insert-position/
 [69]:https://oj.leetcode.com/problems/sqrtx/
 [74]:https://oj.leetcode.com/problems/search-a-2d-matrix/
+[105]:https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 [153]:https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 [167]:https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 [205]:https://oj.leetcode.com/problems/isomorphic-strings/
+[206]:https://oj.leetcode.com/problems/reverse-linked-list/
 [209]:https://oj.leetcode.com/problems/minimum-size-subarray-sum/
 [278]:https://oj.leetcode.com/problems/first-bad-version/
 [350]:https://oj.leetcode.com/problems/intersection-of-two-arrays-ii/

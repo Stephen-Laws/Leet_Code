@@ -18,4 +18,3 @@ class Solution:
             return False
         return str(x)== str(x)[::-1]
         """
-        
