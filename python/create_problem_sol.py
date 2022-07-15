@@ -21,7 +21,7 @@ import requests
 
 
 PROBLEMS_API_LINK = "https://leetcode.com/api/problems/algorithms"
-COMMAND_LINE = False
+COMMAND_LINE = True
 difficulty_dict = {1: "Easy", 2: "Medium", 3: "Hard"}
 algorithms_problem_json = requests.get(PROBLEMS_API_LINK).content
 algorithms_problem_json = json.loads(algorithms_problem_json)
