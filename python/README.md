@@ -1,6 +1,6 @@
 Leetcode Problems (PYTHON)
 
-Easy:   29
+Easy:   31
 
 Medium: 11
 
@@ -21,6 +21,7 @@ Hard:   0
 |69|[Sqrt(x)][69]|0069_sqrt_x.py|22/06/15|Easy|
 |74|[Search a 2D Matrix][74]|0074_search_2d_matrix.py|22/06/21|Medium|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal][105]|0105_build_tree.py|22/07/14|Medium|
+|121|[Best Time to Buy and Sell Stock][121]|0121_best_time_to_buy_and_sell_stock.py|22/07/18|Easy|
 |142|[Linked List Cycle II][142]|0142_detect_Cycle.py|22/07/15|Medium|
 |153|[Find Minimum in Rotated Sorted Array][153]|0153_find_min_rot_array.py|22/06/24|Medium|
 |167|[Two Sum II - Input Array Is Sorted][167]|0167_two_sum_ii.py|22/06/20|Medium|
@@ -32,6 +33,7 @@ Hard:   0
 |367|[Valid Perfect Square][367]|0367_valid_perfect_square.py|22/06/15|Easy|
 |374|[Guess Number Higher or Lower][374]|0374_guess_number.py|22/06/13|Easy|
 |392|[Is Subsequence][392]|0392_is_subsequence.py|22/06/27|Easy|
+|409|[Longest Palindrome][409]|0409_longest_palindrome.py|22/07/18|Easy|
 |441|[Arranging Coins][441]|0441_arranging_coins.py|22/06/19|Easy|
 |611|[Valid Triangle Number][611]|0611_valid_triangle_number.py|22/06/29|Medium|
 |633|[Sum of Square Numbers][633]|0633_sum_of_square_numbers.py|22/06/22|Medium|
@@ -62,6 +64,7 @@ Hard:   0
 [69]:https://oj.leetcode.com/problems/sqrtx/
 [74]:https://oj.leetcode.com/problems/search-a-2d-matrix/
 [105]:https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+[121]:https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/
 [142]:https://oj.leetcode.com/problems/linked-list-cycle-ii/
 [153]:https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 [167]:https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/
@@ -73,6 +76,7 @@ Hard:   0
 [367]:https://oj.leetcode.com/problems/valid-perfect-square/
 [374]:https://oj.leetcode.com/problems/guess-number-higher-or-lower/
 [392]:https://oj.leetcode.com/problems/is-subsequence/
+[409]:https://oj.leetcode.com/problems/longest-palindrome/
 [441]:https://oj.leetcode.com/problems/arranging-coins/
 [611]:https://oj.leetcode.com/problems/valid-triangle-number/
 [633]:https://oj.leetcode.com/problems/sum-of-square-numbers/
