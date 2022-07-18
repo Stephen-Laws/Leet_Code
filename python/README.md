@@ -1,8 +1,8 @@
 Leetcode Problems (PYTHON)
 
-Easy:   28
+Easy:   29
 
-Medium: 10
+Medium: 11
 
 Hard:   0
 
@@ -21,6 +21,7 @@ Hard:   0
 |69|[Sqrt(x)][69]|0069_sqrt_x.py|22/06/15|Easy|
 |74|[Search a 2D Matrix][74]|0074_search_2d_matrix.py|22/06/21|Medium|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal][105]|0105_build_tree.py|22/07/14|Medium|
+|142|[Linked List Cycle II][142]|0142_detect_cycle.py|22/07/15|Medium|
 |153|[Find Minimum in Rotated Sorted Array][153]|0153_find_min_rot_array.py|22/06/24|Medium|
 |167|[Two Sum II - Input Array Is Sorted][167]|0167_two_sum_ii.py|22/06/20|Medium|
 |205|[Isomorphic Strings][205]|0205_isomorphic_strings.py|22/06/27|Easy|
@@ -38,6 +39,7 @@ Hard:   0
 |724|[Find Pivot Index][724]|0724_find_pivot_index.py|22/06/24|Easy|
 |744|[Find Smallest Letter Greater Than Target][744]|0744_smallest_letter.py|22/06/16|Easy|
 |852|[Peak Index in Mountain Array][852]|0852_peak_index.py|22/06/14|Easy|
+|908|[Middle of the Linked List][908]|0908_middle_node.py|22/07/15|Easy|
 |1385|[Find the Distance Value Between Two Arrays][1385]|1385_find_distance_value.py|22/06/15|Easy|
 |1463|[The K Weakest Rows in a Matrix][1463]|1463_k_weakest_rows.py|22/06/21|Easy|
 |1468|[Check If N and Its Double Exist][1468]|1468_check_if_exist.py|22/06/21|Easy|
@@ -60,6 +62,7 @@ Hard:   0
 [69]:https://oj.leetcode.com/problems/sqrtx/
 [74]:https://oj.leetcode.com/problems/search-a-2d-matrix/
 [105]:https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+[142]:https://oj.leetcode.com/problems/linked-list-cycle-ii/
 [153]:https://oj.leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 [167]:https://oj.leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 [205]:https://oj.leetcode.com/problems/isomorphic-strings/
@@ -77,6 +80,7 @@ Hard:   0
 [724]:https://oj.leetcode.com/problems/find-pivot-index/
 [744]:https://oj.leetcode.com/problems/find-smallest-letter-greater-than-target/
 [852]:https://oj.leetcode.com/problems/peak-index-in-a-mountain-array/
+[908]:https://oj.leetcode.com/problems/middle-of-the-linked-list/
 [1385]:https://oj.leetcode.com/problems/find-the-distance-value-between-two-arrays/
 [1463]:https://oj.leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
 [1468]:https://oj.leetcode.com/problems/check-if-n-and-its-double-exist/
