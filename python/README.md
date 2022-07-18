@@ -21,7 +21,7 @@ Hard:   0
 |69|[Sqrt(x)][69]|0069_sqrt_x.py|22/06/15|Easy|
 |74|[Search a 2D Matrix][74]|0074_search_2d_matrix.py|22/06/21|Medium|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal][105]|0105_build_tree.py|22/07/14|Medium|
-|142|[Linked List Cycle II][142]|0142_detect_cycle.py|22/07/15|Medium|
+|142|[Linked List Cycle II][142]|0142_detect_Cycle.py|22/07/15|Medium|
 |153|[Find Minimum in Rotated Sorted Array][153]|0153_find_min_rot_array.py|22/06/24|Medium|
 |167|[Two Sum II - Input Array Is Sorted][167]|0167_two_sum_ii.py|22/06/20|Medium|
 |205|[Isomorphic Strings][205]|0205_isomorphic_strings.py|22/06/27|Easy|
