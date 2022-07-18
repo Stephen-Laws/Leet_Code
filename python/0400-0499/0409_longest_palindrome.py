@@ -7,8 +7,6 @@ class Solution:
             freq[ord(c)] += 1
         odds = 0
         for i in freq:
-            if i > 0:
-                print(i, i&1)
             odds += i & 1
         return len(s) - odds + (odds > 0)
             
